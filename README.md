@@ -5,10 +5,9 @@ We suggest Jupyter to run the notebook.
 
 ### Directory Structure  
 
-The dataset for task one is already in place and ready to be used by the codebase.  
-The dataset for task two needs to be downloaded and extracted in the dataset directory.  
+Both datasets are in place and ready to be used for their respective tasks. It is possible that some relative path referencing might not work on Windows systems. In that case, just replace the relative path `./dataset/chest_xray/` with an absolute path `C:\\path\\to\\directory\\`.
 
-It was too big to push to GitHub (>2GB), so you will have to download it from here: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download
+The dataset was obtained from kaggle: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download
 
 Place the `archive.zip` file in the `dataset/` directory and run `unzip archive.zip` to extract its contents.
 
@@ -18,7 +17,6 @@ The directory structure should look as follows:
 .
 ├── Coursework.ipynb
 ├── dataset
-│   ├── archive.zip
 │   ├── chest_xray
 │   │   ├── __MACOSX
 │   │   ├── test
