@@ -6,7 +6,11 @@ We suggest Jupyter to run the notebook.
 ### Directory Structure  
 
 The dataset for task one is already in place and ready to be used by the codebase.  
-The dataset for task two needs to be unzipped and placed into the dataset directory.  
+The dataset for task two needs to be downloaded and extracted in the dataset directory.  
+
+It was too big to push to GitHub (>2GB), so you will have to download it from here: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download
+
+Place the `archive.zip` file in the `dataset/` directory and run `unzip archive.zip` to extract its contents.
 
 The directory structure should look as follows:  
 
