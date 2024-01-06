@@ -26,3 +26,10 @@ The directory structure should look as follows:
 │   └── train-labels-idx1-ubyte
 ```
 
+### Dependencies
+
+We included a `requirements.txt` file covering the dependencies. It is possible (though unlikely) we missed one; typically they can all be installed via `pip3`.  
+
+```bash
+pip3 install -r requirements.txt
+```
